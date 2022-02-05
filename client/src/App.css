@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+.App{
+    max-width: 968px;
+    margin: auto;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+button{
+    border: 'none';
+    background-color: 'white';
+}

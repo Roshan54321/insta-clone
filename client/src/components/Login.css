@@ -1,0 +1,105 @@
+
+.Loginandimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap:20px;
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+#Login__logo {
+    object-fit: contain;
+    margin: 20px;
+}
+
+.Login__container {
+    background-color: white;
+    max-width: 450px;
+    text-align: center;
+    border: 0.5px solid lightgray;
+}
+
+.Login__button {
+    background-color: blue;
+}
+
+.Login__incorrectpass {
+    color: red;
+    font-weight: 400;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+.Login__facebookoption {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight:500;
+}
+
+.Login__forgotpassword {
+    margin: 20px;
+    margin-bottom: 20px
+}
+
+.Login__signup {
+    margin-top: 20px;
+    background-color: white;
+    max-width: 450px;
+    text-align: center;
+    border: 0.5px solid lightgray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.Login__getapp {
+    margin-top: 20px;
+    max-width: 450px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Login__getapp__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Login__getapp__options img{
+    margin: 5px;
+    margin-top: 25px;
+    max-width: 160px;
+    object-fit: contain;
+}
+
+.Login__footer {
+    display: flex; 
+    flex-direction: column;
+}
+
+.Login__footer__divisions {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 885px)
+{
+    #Login__phone {display: none;}
+}
+
+@media only screen and (max-width: 585px)
+{
+    .Login__container { border: none;}
+    body { background-color: white; }
+    
+}

@@ -1,0 +1,55 @@
+.header{
+    display: flex; 
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    /* margin-bottom: 40px; */
+}
+
+.Header{
+    margin-bottom: 40px;
+}
+
+#header__logo{
+    object-fit: contain;
+    opacity: 1;
+}
+
+.header__search{
+    margin: auto;
+}
+
+.header__home {
+    object-fit: contain;
+}
+
+.header__account { 
+    /* position: absolute; */
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-top-left-radius: 8px;
+    max-width: 200px;
+    align-self: flex-end;
+    float: right;
+}
+
+.header__account div {
+    margin: 10px;
+}
+
+.header__messenger {
+    object-fit: contain;
+    max-height: 24px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
